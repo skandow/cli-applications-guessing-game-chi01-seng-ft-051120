@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-  number = rand(1..6)
+  number = rand(6) + 1
   answer = gets.chomp 
   if number == answer 
     puts "You guessed the correct number!"
